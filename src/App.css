@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Musinsa-medium";
+  font-weight: normal;
+  src: url("./Font/musinsa.woff") format("woff");
+}
+/* white space bug fix in chrome */
+/* html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+} */
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main-bg {
+  background: url(/public/img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 30vw;
+  min-height: 200px;
+  max-height: 400px;
+  min-width: 500px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-btn-box {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  margin: auto;
+}
+
+.w-80vw {
+  width: 80vw;
+}
+.fade-start {
+  opacity: 0;
+}
+.fade-end {
+  opacity: 1;
+  transition: 1s;
+}
+.dark-mode {
+  background-color: #2b2b2b;
+  color: whitesmoke;
+}
+.dark-mode-btn {
+  background-color: #3c3c3c;
+  color: whitesmoke;
+  border: none;
+}
+.br-10px {
+  border-radius: 10px;
+}
+.musinsa-medium-font {
+  font-family: "Musinsa-medium";
+}

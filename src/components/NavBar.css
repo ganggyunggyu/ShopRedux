@@ -1,0 +1,34 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  height: 60px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 10px;
+}
+.nav-title {
+  cursor: pointer;
+}
+
+@media (max-width: 572px) {
+  .nav-container {
+    justify-content: center;
+    width: 100vw;
+    font-size: 20px;
+  }
+  .nav-title {
+    font-size: 15px;
+    margin: 0;
+  }
+  .nav-item {
+    font-size: 15px;
+  }
+}
+
+/*작아졋을때 w400px*/

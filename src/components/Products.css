@@ -1,0 +1,38 @@
+.btn-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-box {
+  width: 200px;
+  height: 450px;
+  padding: 10px;
+}
+
+.item {
+  height: 100%;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+}
+
+.item-img {
+  width: 90%;
+  height: 60%;
+}
+
+.item:hover {
+  background-color: rgb(242, 242, 242);
+  transform: scale(0.97);
+  color: black;
+}
+.item-container {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
